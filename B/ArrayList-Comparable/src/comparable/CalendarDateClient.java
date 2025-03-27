@@ -16,7 +16,7 @@ public class CalendarDateClient {
         calendarDateList.add(new CalendarDate(1950, 7, 11));
 
         System.out.println("Sorting " + calendarDateList);
-//        Collections.sort(calendarDateList);
+        Collections.sort(calendarDateList);
         System.out.println("   result " + calendarDateList);
     }
 }
